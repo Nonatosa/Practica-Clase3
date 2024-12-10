@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    font-family: "Tinos", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    background-color: #F0F0F0;
+    padding: 20px;
+}
+
+/*Diferentes niveles de especificidad*/
+p{
+    color: blue;
+}
+
+.text {
+    color: red;
+}
+
+#parrafo-especial {
+    color: green;
+}
+
+.container .text.destacado {
+    color: purple;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.seccion-familiar {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 2px solid #666;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+.caja-simple {
+    background-color: lightcyan;
+    border: 2px dashed cyan;
+    padding: 10px;
+    margin: 10px 0px;
+}
+
+.texto-centrado {
+    text-align: center;
+    color: aquamarine;
+}
+
+.texto-grande {
+    font-size: 24px;
+}
+
+.texto-pequeño {
+    font-size: 12px;
+}
